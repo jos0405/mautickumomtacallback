@@ -42,8 +42,8 @@ To install the Mautic Kumo MTA plugin, follow these steps:
       },
     }
 
--- Load the queue helper, which reads queues.toml
-local queue_helper = queue_module:setup{ '/opt/kumomta/etc/policy/queues.toml' }
+    -- Load the queue helper, which reads queues.toml
+    local queue_helper = queue_module:setup{ '/opt/kumomta/etc/policy/queues.toml' }
 
     ```
 
