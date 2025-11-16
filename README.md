@@ -48,8 +48,8 @@ local queue_helper = queue_module:setup{ '/opt/kumomta/etc/policy/queues.toml' }
     ```
 
 4. After updating the init.lua file, don't forget to restart kumo MTA. Check status if everything is still crisp and curry.
-        ```
-        systemctl restart kumomta
+        ```bash
+    systemctl restart kumomta
 	systemctl status kumomta
         ```
 
